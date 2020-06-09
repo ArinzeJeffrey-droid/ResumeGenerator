@@ -1,0 +1,145 @@
+.container-fluid {
+    /* border: 1px solid black; */
+    padding: 0;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: #fff;
+    text-align: center;
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    background: linear-gradient(to right, #DD2476, #FF512F);
+}
+
+.jumbotron h1,
+.github h1 {
+    font-weight: 100;
+}
+
+.b {
+    border: 1px solid blue;
+}
+
+.form-container {
+    width: 70%;
+    margin: -40px auto;
+    height: auto;
+    background-color: #fff;
+    /* box-shadow: 0 8px 6px -6px black; */
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+}
+
+body {
+    background-color: #eee;
+}
+
+.btn {
+    border-radius: 3px;
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    background-image: linear-gradient( 122deg, #e54595 0%, #fd378e 100%);
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    padding: 0.6rem 2rem;
+    border: 0;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    color: #fff;
+}
+
+.github {
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.git {
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+#myBtn {
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    /* Set a background color */
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+.help {
+    color: #fff;
+    text-align: center;
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom:  20px;
+}
+
+.help ul {
+    list-style: none;
+}
+
+@media screen and (max-width:480px) {
+    .form-container {
+        width: 90%;
+    }
+    .jumbotron h1 {
+        margin-bottom: 50px;
+    }
+    .github h1 {
+        font-size: 25px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .form-container {
+        width: 90%;
+    }
+}
